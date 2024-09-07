@@ -38,6 +38,9 @@ ul {
 a {
     text-decoration: none;
 }
+.adress {
+    font-style: normal;
+}
 .contact-link {
     color: #434455;
     font-size: 16px;
@@ -84,6 +87,10 @@ background-color: #2E2F42;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+.description-of-skill {
+    font-size: 16px;
+    line-height: 1.5;
 }
 .our-team-section {
     background-color: #F4F4FD;
