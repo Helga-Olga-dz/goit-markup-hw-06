@@ -46,6 +46,7 @@ a {
     font-size: 16px;
     font-style: normal;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 .contact-link:focus {
     color: #404bbf;
