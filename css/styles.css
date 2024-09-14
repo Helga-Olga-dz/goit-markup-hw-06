@@ -123,6 +123,7 @@ background-color: #2E2F42;
     letter-spacing: 0.02em;
 }
 .our-portfolio-title {
+    border: 1px;
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
