@@ -115,6 +115,7 @@ img {
     align-items: center;
     gap: 40px;
     margin-left: 76px;
+    padding: 24px 0 24px;
 }
 
 .nav-item {
@@ -135,9 +136,11 @@ img {
     color: #404BBF;
 }
 
-.address {
+.adress {
     font-style: normal;
     margin-left: auto;
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-list {
