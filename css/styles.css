@@ -97,6 +97,7 @@ img {
     column-gap: 76px;
     align-items: center;
 }
+
 .header-logo {
     padding: 24px 0;
     margin-right: 76px;
@@ -156,6 +157,7 @@ img {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    width: 100%;
 }
 
 .header-link:focus {
@@ -388,6 +390,7 @@ padding: 188px 0;
 .team-icons {
     fill: #f4f4fd ;
 }
+
 /* Portfolio */
 
  .portfolio {
@@ -409,11 +412,6 @@ padding: 188px 0;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
-
-.portfolio-item:hover .portfolio-overlay {
-    transform: translateY(0%);
-    
-}
 
  .portfolio-info {
     border: 1px solid #e7e9fc;
@@ -463,6 +461,10 @@ padding: 188px 0;
     padding-left: 25px;
     padding-right: 25px;
     transform: translateY(142%);
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    transform: translateY(0%);
 }
 
 .style-overlay {
