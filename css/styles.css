@@ -382,9 +382,7 @@ padding: 188px 0;
 .team-link-icon:hover,
 .team-link-icon:focus {
     background-color: rgba(64, 75, 191, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 
 .team-icons {
@@ -410,6 +408,9 @@ padding: 188px 0;
 
 .portfolio-item:hover .portfolio-overlay {
     transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
  .portfolio-info {
