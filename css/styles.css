@@ -279,13 +279,14 @@ padding: 188px 0;
 }
 
 .company-wrapper {
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 112px;
     border-radius: 4px;
     background-color: rgba(244, 244, 253, 1);
     margin-bottom: 8px;
+    border: 1px solid #8e8f99;
 }
 
 .skill {
@@ -381,6 +382,9 @@ display: flex;
 .team-link-icon:hover,
 .team-link-icon:focus {
     background-color: rgba(64, 75, 191, 1);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-icons {
@@ -401,6 +405,7 @@ display: flex;
  .portfolio-item {
     position: relative;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .portfolio-item:hover .portfolio-overlay {
