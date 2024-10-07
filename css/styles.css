@@ -451,7 +451,7 @@ padding: 188px 0;
 }
 
 .portfolio-overlay {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     width: 360px;
     height: 300px;
@@ -464,10 +464,6 @@ padding: 188px 0;
     transform: translateY(142%);
 }
 
-.portfolio-overlay:hover {
-    transform: translateY(0%);
-}
-
 .style-overlay {
     color: rgba(244, 244, 253, 1);
     font-family: "Roboto", sans-serif;
@@ -477,6 +473,10 @@ padding: 188px 0;
     letter-spacing: 0.02em;
     text-align: left;
     position: absolute;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    transform: translateY(0%);
 }
 
 /* Footer */
