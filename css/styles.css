@@ -719,12 +719,12 @@ background-color: rgba(49, 208, 170, 1);
 }
 
 .modal-icon-close {
-    fill: rgba(46, 47, 66, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-close:hover .modal-icon-close,
-.modal-button-close:focus .modal-button-close {
+
+.modal-icon-close:hover,
+.modal-icon-close:focus {
     fill: #ffffff;
 }
 
