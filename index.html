@@ -18,18 +18,22 @@
 <body>
     <header class="page-header">
         <div class="container header-container">
-        <nav class="header-nav">
-            <a class="logo header-logo" href="./index.html">Web<span class="logo-accent">Studio</span></a>
-            <ul class="nav-list">
-                <li class="nav-item">
-                <a class="header-link current" href="./index.html">Studio</a></li>
-                <li class="nav-item">
-                <a class="header-link" href="">Portfolio</a></li>
-                <li class="nav-item">
-                <a class="header-link" href="">Contacts</a>
-                </li>
-            </ul>
-        </nav>
+        <header class="page-header">
+            <div class="container header-container">
+                <nav class="header-nav">
+                    <a class="logo header-logo" href="./index.html">Web<span class="logo-accent">Studio</span></a>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="header-link current" href="./index.html">Studio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header-link" href="">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header-link" href="">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
 
         <address class="adress">
             <ul class="contacts-list">
@@ -37,9 +41,78 @@
                 <li class="contacts-item"><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
-        </div>
-    </header>
 
+        <button class="burger-btn" type="button" data-menu-open>
+            <svg class="burger-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-burger"></use>
+            </svg>
+        </button>
+        </div>
+        <!-- Mobi-menu -->
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container"></div>
+            <button class="mobile-menu-close" data-menu-close type="button">
+                <svg class="mobile-icon-close" aria-label="icon-criss-cross" width="8" height="8">
+                    <use href="./images/icons.svg#icon-criss-cross"></use>
+                </svg>
+            </button>
+            <nav class="mobile-menu-navigation">
+                <ul class="mobile-navigation-list">
+                    <li>
+                        <a href="" class="mobile-navigation-link current">Studio </a>
+                    </li>
+                    <li>
+                        <a href="" class="mobile-navigation-link">Portfolio </a>
+                    </li>
+                    <li>
+                        <a href="" class="mobile-navigation-link">Contacts </a>
+                    </li>
+                </ul>
+            </nav>
+            <address class="mobile-menu-contacts">
+                <ul class="mobile-contact-list">
+                    <li class="mobile-menu-links">
+                        <a href="mailto:info@devstudio.com" class="mobile-contact-item">info@devstudio.com</a>
+                    </li>
+                    <li class="mobile-menu-links">
+                        <a href="tel:+110001111111" class="mobile-contact-item">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+            <ul class="mobile-menu-social-webs">
+            <li class="mobile-social-list-wrapper">
+            <a class="mobile-social-list-link" href="https://instagram.com/">
+            <svg class="mobile-menu-section-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+            </a>
+            </li>
+            <li class="mobile-social-list-wrapper">
+                <a class="mobile-social-list-link" href="https://twitter.com/">
+                    <svg class="mobile-menu-section-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                    </a>
+                    </li>
+            <li class="mobile-social-list-wrapper">
+                <a class="mobile-social-list-link" href="https://facebook.com/">
+                    <svg class="mobile-menu-section-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+            </a>
+            </li>
+            <li class="mobile-social-list-wrapper">
+                <a class="mobile-social-list-link" href="https://linkedin.com/">
+                    <svg class="mobile-menu-section-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+                </a>
+                </li>
+            </ul>
+        </div>
+            </div>
+    </header>
+<!-- Mainnnnnnnnnn -->
     <main>
         <!--Hero section-->
         <section class="hero-section hero-image">
@@ -276,6 +349,7 @@
                 <ul class="portfolio-list">
                     <li class="portfolio-item">
                     <div class="portfolio-overlay">
+                        
                     <img src="./images/portfolio/banking.jpg" alt="App" width="360" height="300">
                     <p class="style-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
                         Exotic Fruit Ecommerce App · Cloud Storage App
@@ -485,6 +559,7 @@
       </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
    </body>
 
 </html>
